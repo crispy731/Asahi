@@ -12,11 +12,12 @@ ul {
   color: White
 }
 
-li {
+.listitem {
   float: left;
+  padding-right: 290px;
 }
 
-li a {
+.listitem a {
   display: block;
   color: white;
   text-align: center;
@@ -24,7 +25,29 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: Black;
+.listitem a:hover {
+  background-color: brown;
+}
+
+.image1 {
+  float: right;
+  margin-top: 100px;
+  margin-right: 300px;
+  margin-bottom: 100px;
+}
+
+.carouseltext {
+  float: left;
+  margin-top: 250px;
+  font-size: 36px;
+  margin-left: 300px;
+}
+
+.hr1 {
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  
 }
