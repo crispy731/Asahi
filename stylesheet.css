@@ -10,7 +10,7 @@ ul {
 }
 
 body {
-  
+  margin: 0;
 }
 .listitem {
   float: left;
@@ -61,6 +61,7 @@ body {
   text-align: center;
   text-decoration: underline;
   font-family: 'Amita', serif;
+
 }
 
 .footer img {
