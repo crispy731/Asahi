@@ -1,5 +1,3 @@
-
-
 ul {
   list-style-type: none;
   margin: 0px;
@@ -11,7 +9,10 @@ ul {
 
 body {
   margin: 0;
+  overflow-x: hidden;
+  background-image: linear-gradient(White, LightGray);
 }
+
 .listitem {
   float: left;
   padding-right: 290px;
@@ -25,7 +26,6 @@ body {
   text-decoration: none;
   font-family: 'shadows into light', serif;
   letter-spacing: 2.5px;
-
 }
 
 .listitem a:hover {
@@ -47,21 +47,16 @@ body {
   max-width: 550px;
   margin-left: 200px;
   text-align: center;
-
-
 }
 
 .hr1 {
   width: 100%;
-
-
 }
 
 .text1 {
   text-align: center;
   text-decoration: underline;
   font-family: 'Amita', serif;
-
 }
 
 .footer img {

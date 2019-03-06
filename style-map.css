@@ -1,0 +1,76 @@
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: black;
+  color: White;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-image: url(./images/background4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+}
+
+.listitem {
+  float: left;
+  padding-right: 290px;
+}
+
+.listitem a {
+  display: block;
+  color: White;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'shadows into light', serif;
+  letter-spacing: 2.5px;
+}
+
+.listitem a:hover {
+  background-color: brown;
+}
+
+.hr1 {
+  width: 100%;
+}
+
+.footer img {
+  margin-left: 260px;
+  margin-right: 260px;
+  opacity: .50;
+}
+
+.text1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Amita', serif;
+}
+
+.map {
+  float: right;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  opacity: 0.80;
+}
+
+.imgtext {
+  float: left;
+  font-size: 48px;
+  margin-left: 200px;
+  font-family: 'Shadows into light', serif;
+  letter-spacing: 2px;
+  margin-top: 250px;
+  text-shadow: 2px 1px 5px Gray;
+}
+
+.background {
+
+}
