@@ -10,11 +10,10 @@ ul {
 body {
   margin: 0;
   overflow-x: hidden;
-  background-image: url(./images/background4.jpg);
+  background-image: url(./images/mtfuji.jpg );
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: 2;
 }
 
 .listitem {
@@ -43,13 +42,14 @@ body {
 .footer img {
   margin-left: 260px;
   margin-right: 260px;
-  opacity: .50;
+  opacity: .89;
 }
 
 .text1 {
   text-align: center;
   text-decoration: underline;
   font-family: 'Amita', serif;
+  text-shadow: 2px 1px 5px Gray;
 }
 
 .map {
@@ -72,5 +72,4 @@ body {
 }
 
 .background {
-
 }

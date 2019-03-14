@@ -1,0 +1,36 @@
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: black;
+  color: White
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-image: linear-gradient(White, LightGray);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  .listitem {
+    float: left;
+    padding-right: 290px;
+  }
+
+  .listitem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'shadows into light', serif;
+    letter-spacing: 2.5px;
+  }
+
+  .listitem a:hover {
+    background-color: brown;
+  }
