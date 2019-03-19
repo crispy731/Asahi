@@ -10,7 +10,7 @@ ul {
 body {
   margin: 0;
   overflow-x: hidden;
-  background-image: url(./images/mtfuji.jpg);
+  background-image: url(./images/mtfuji.jpg );
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,52 +36,50 @@ body {
   text-shadow: 2px 2px 5px Gray;
   color: Black;
 }
-
-  .listitem {
-    float: left;
-    padding-right: 290px;
-  }
-
-  .listitem a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family: 'shadows into light', serif;
-    letter-spacing: 2.5px;
-  }
-
-  .listitem a:hover {
-    background-color: brown;
-  }
-
-.hr1 {
-  background-color: black;
-  width: 100%;
-  height: 1px;
-  border: none;
+.listitem {
+  float: left;
+  padding-right: 290px;
 }
 
-.legend {
-  text-shadow: 2px 2px 5px Gray;
-  color: black;
+.listitem a {
+  display: block;
+  color: white;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'shadows into light', serif;
+  letter-spacing: 2.5px;
 }
 
-.name {
-  margin-left: 31px;
-  opacity: .95;
-  text-shadow: 2px 2px 5px Gray;
+.listitem a:hover {
+  background-color: brown;
 }
 
-.email {
-  margin-left: 31px;
-  opacity: .95;
-  text-shadow: 2px 2px 5px Gray;
+.bet {
+  display: flex;
 }
 
-form {
+.Hibachi {
+  margin-left: 250px;
+  font-size: 40px;
   text-shadow: 2px 2px 5px Gray;
-  border: none;
+  border: 2px solid Black;
+  border-radius: 25%;
+}
+
+.SitDown {
+  margin-right: 250px;
+  font-size: 40px;
+  text-shadow: 2px 2px 5px Gray;
+  border: 2px solid black;
+  border-radius: 25%;
+}
+
+.Sushi {
+  font-size: 40px;
+  text-shadow: 2px 2px 5px Gray;
+  margin-left: 500px;
+  margin-right: 500px;
+  border: 2px solid black;
+  border-radius: 25%;
 }
