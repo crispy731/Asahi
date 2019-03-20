@@ -10,10 +10,7 @@ ul {
 body {
   margin: 0;
   overflow-x: hidden;
-  background-image: url(./images/mtfuji.jpg );
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
 
 .asahititle {
@@ -63,16 +60,14 @@ body {
   margin-left: 250px;
   font-size: 40px;
   text-shadow: 2px 2px 5px Gray;
-  border: 2px solid Black;
-  border-radius: 25%;
+
 }
 
 .SitDown {
   margin-right: 250px;
   font-size: 40px;
   text-shadow: 2px 2px 5px Gray;
-  border: 2px solid black;
-  border-radius: 25%;
+
 }
 
 .Sushi {
@@ -80,6 +75,3 @@ body {
   text-shadow: 2px 2px 5px Gray;
   margin-left: 500px;
   margin-right: 500px;
-  border: 2px solid black;
-  border-radius: 25%;
-}
