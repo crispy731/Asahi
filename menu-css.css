@@ -52,26 +52,11 @@ body {
   background-color: brown;
 }
 
-.bet {
-  display: flex;
-}
-
-.Hibachi {
-  margin-left: 250px;
-  font-size: 40px;
-  text-shadow: 2px 2px 5px Gray;
+.table{
 
 }
 
-.SitDown {
-  margin-right: 250px;
-  font-size: 40px;
-  text-shadow: 2px 2px 5px Gray;
+.th{
+  border: 2px;
 
 }
-
-.Sushi {
-  font-size: 40px;
-  text-shadow: 2px 2px 5px Gray;
-  margin-left: 500px;
-  margin-right: 500px;
