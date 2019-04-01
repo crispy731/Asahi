@@ -36,6 +36,7 @@ body {
   text-shadow: 2px 2px 5px Gray;
   color: Black;
 }
+
 .listitem {
   float: left;
   padding-right: 290px;
@@ -55,10 +56,13 @@ body {
   background-color: brown;
 }
 
-.info{
+.info {
   font-size: 25px;
   color: white;
   font-family: 'shadows into light', serif;
-letter-spacing: 2.5px;
+  letter-spacing: 2.5px;
+}
 
+.impala{
+  
 }
