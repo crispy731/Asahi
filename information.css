@@ -54,3 +54,11 @@ body {
 .listitem a:hover {
   background-color: brown;
 }
+
+.info{
+  font-size: 25px;
+  color: white;
+  font-family: 'shadows into light', serif;
+letter-spacing: 2.5px;
+
+}
