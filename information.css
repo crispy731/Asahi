@@ -1,0 +1,68 @@
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: black;
+  color: White
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./images/mtfuji.jpg );
+}
+
+.asahititle {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 48px;
+  letter-spacing: 45px;
+  font-family: 'Amita', serif;
+  text-shadow: 2px 2px 5px Gray;
+  color: black;
+}
+
+.asahititle1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 6px;
+  font-family: 'Amita', serif;
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px Gray;
+  color: Black;
+}
+
+.listitem {
+  float: left;
+  padding-right: 290px;
+}
+
+.listitem a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'shadows into light', serif;
+  letter-spacing: 2.5px;
+}
+
+.listitem a:hover {
+  background-color: brown;
+}
+
+.info {
+  font-size: 25px;
+  color: white;
+  font-family: 'shadows into light', serif;
+  letter-spacing: 2.5px;
+}
+
+.impala{
+  
+}
