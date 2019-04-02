@@ -81,7 +81,53 @@ body {
   text-shadow: 2px 2px 5px Gray;
 }
 
+.fieldset {
+  border: none;
+}
+
 form {
   text-shadow: 2px 2px 5px Gray;
   border: none;
+}
+
+.text1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Amita', serif;
+  text-shadow: 2px 2px 50px Beige;
+  color: Black;
+  font-size: 32px;
+}
+.footer {
+  display: flex;
+  opacity: .73;
+}
+
+.fb {
+  margin-left: 500px;
+  margin-right: 300px;
+}
+
+.ig {
+
+}
+
+.twitter {
+  margin-right: 500px;
+  margin-left: 300px;
+}
+
+img {
+  border-radius: 25%;
+  border: 2px solid Black;
+  max-width: 100%;
+}
+
+.formbtn {
+  border: 2px solid Black;
+  opacity: .80;
+  background-color: #fa2828;
+}
+.formbtn:hover {
+  background-color: #28fa28;
 }
