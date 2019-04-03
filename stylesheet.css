@@ -106,15 +106,20 @@ li a:hover {
 .fb {
   margin-left: 500px;
   margin-right: 300px;
+  height : 300px;
+  width: 300px;
 }
 
 .ig {
-
+  width: 300px;
+  height: 300px;
 }
 
 .twitter {
   margin-right: 500px;
   margin-left: 300px;
+  height: 300px;
+  width: 300px;
 }
 
 img {
@@ -139,8 +144,8 @@ img {
 @media only screen and (max-width: 415px) {
 
   body {
-    max-width: 414px;
-    max-height: 736px;
+    max-width: 100%;
+    max-height: 100%;
     margin: 0;
     overflow-x: hidden;
     background-repeat: no-repeat;
@@ -190,15 +195,17 @@ img {
 }
 
 .hr1 {
-  width: 100%;
+  width: 106%;
   color: black;
   opacity: .95;
 }
 
 .hr2 {
+  width: 106%;
+  opacity: .95;
   position: relative;
-  bottom: 20px;
-  color: Yellow;
+  bottom: 430px;
+  color: Black;
 }
 
 .image1 {
@@ -231,26 +238,28 @@ img {
 }
 
 .text1 {
-  text-align: unset;
+  text-align: center;
   position: relative;
-  left: 29px;
+  left: 15px;
+  bottom: 440px;
   text-decoration: underline;
   font-family: 'Amita', serif;
   text-shadow: 2px 2px 50px Beige;
-  color: Black;
+  color: Gray;
   font-size: 25px;
 }
 
 .footer {
   display: unset;
   position: relative;
-  left: 8px;
+  left: 19px;
+  bottom: 440px;
   opacity: .90;
 }
 
 .fb {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
   height: 100px;
   width: 100px;
 }
@@ -261,8 +270,8 @@ img {
 }
 
 .twitter {
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
   height: 100px;
   width: 100px;
 }
