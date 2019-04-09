@@ -19,6 +19,7 @@ body {
 .nav {
   max-width: 100%;
 }
+
 .asahititle {
   text-align: center;
   text-transform: uppercase;
@@ -28,6 +29,7 @@ body {
   text-shadow: 2px 2px 5px Gray;
   color: black;
 }
+
 .asahititle1 {
   text-align: center;
   text-transform: uppercase;
@@ -38,6 +40,7 @@ body {
   text-shadow: 2px 2px 5px Gray;
   color: Black;
 }
+
 .listitem {
   float: left;
   padding-right: 290px;
@@ -85,7 +88,7 @@ body {
   margin-left: 200px;
   font-family: 'Shadows into light', serif;
   letter-spacing: 2px;
-  margin-top:40px;
+  margin-top: 40px;
   text-shadow: 2px 1px 5px Gray;
   max-width: 400px;
   color: Darkgray;
@@ -94,7 +97,6 @@ body {
   position: relative;
   top: 150px;
   text-align: center;
-
 }
 
 .footer {
@@ -107,9 +109,7 @@ body {
   margin-right: 300px;
 }
 
-.ig {
-
-}
+.ig {}
 
 .twitter {
   margin-right: 500px;
@@ -119,4 +119,152 @@ body {
 img {
   border-radius: 25%;
   border: 2px solid Black;
+}
+
+@media only screen and (max-width: 415px) {
+  html {
+    background-image: url(./images/mtfuji.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  body {
+    max-width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    padding-bottom: 200px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .nav {
+    max-width: 100%;
+  }
+
+  .nav li {
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .asahititle {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px;
+    letter-spacing: 30px;
+    font-family: 'Amita', serif;
+    text-shadow: 2px 2px 5px Gray;
+    color: black;
+    width: 100%;
+  }
+
+  .asahititle1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 4px;
+    font-family: 'Amita', serif;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px Gray;
+    color: Black;
+    width: 100%;
+  }
+
+  .hr1 {
+    width: 100%;
+    color: black;
+    opacity: .95;
+    margin: 0px;
+    position: relative;
+    top: 40px;
+  }
+
+  .hr2 {
+    width: 100%;
+    opacity: .95;
+    position: relative;
+    color: Black;
+    margin: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    top: 80px;
+
+  }
+
+  .imgtext {
+    width: 80%;
+    float: right;
+    font-size: 16px;
+    position: relative;
+    top: 50px;
+    margin: 0px;
+    right: 40px;
+  }
+
+  .map {
+      float: unset;
+      margin: 0px;
+      width: 80%;
+      position: relative;
+      top: 80px;
+      left: 30px;
+      margin-left: 10px;
+      margin-right: 10px;
+      opacity: 0.80;
+      height: 90%;
+  }
+
+  .text1 {
+    text-align: center;
+    position: relative;
+    text-decoration: underline;
+    font-family: 'Amita', serif;
+    text-shadow: 2px 2px 50px Beige;
+    color: Black;
+    font-size: 25px;
+    top: 80px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+
+  .footer {
+    display: unset;
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+    opacity: .90;
+    top: 120px;
+  }
+
+  .fb {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100px;
+    width: 100px;
+  }
+
+  .ig {
+    height: 100px;
+    width: 100px;
+  }
+
+  .twitter {
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 100px;
+    width: 100px;
+  }
+
+  img {
+    border-radius: 25%;
+    border: 2px solid Black;
+    max-width: 100%;
+  }
 }
