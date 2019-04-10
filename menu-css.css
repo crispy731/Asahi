@@ -36,6 +36,7 @@ body {
   text-shadow: 2px 2px 5px Gray;
   color: Black;
 }
+
 .listitem {
   float: left;
   padding-right: 290px;
@@ -53,4 +54,30 @@ body {
 
 .listitem a:hover {
   background-color: brown;
+}
+.hr1 {
+  width: 100%;
+}
+
+.text1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Amita', serif;
+  text-shadow: 2px 2px 5px Beige;
+  color: Gray;
+  font-size: 32px;
+}
+
+.footer img {
+  margin-left: 260px;
+  margin-right: 260px;
+  border: 2px solid Black;
+  border-radius:25px;
+  opacity: .60;
+}
+
+.table, td, th{
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 200px;
 }
