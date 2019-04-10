@@ -58,11 +58,157 @@ body {
 
 .info {
   font-size: 25px;
-  color: white;
+  color: Black;
   font-family: 'shadows into light', serif;
   letter-spacing: 2.5px;
+  text-shadow: 2px 2px 5px Gray;
+  width: 95%;
+  position: relative;
+  text-align: center;
 }
 
-.impala{
-  
+.hr2 {
+  border: 1px solid black;
+  opacity: .90;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 415px) {
+
+  html {
+    background-image: url(./images/mtfuji.jpg );
+    background-repeat: no-repeat;
+  }
+
+  body {
+    max-width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    padding-bottom: 200px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;
+    font-size: 16px;
+    text-align: center;
+}
+
+.nav {
+  max-width: 100%;
+}
+
+.nav li {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.asahititle {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 48px;
+  letter-spacing: 30px;
+  font-family: 'Amita', serif;
+  text-shadow: 2px 2px 5px Gray;
+  color: black;
+  width: 100%;
+}
+
+.asahititle1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 4px;
+  font-family: 'Amita', serif;
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px Gray;
+  color: Black;
+  width: 100%;
+}
+
+.hr1 {
+  width: 100%;
+  color: black;
+  opacity: .95;
+  margin: 0px;
+  border-color: Black
+}
+
+.info {
+  text-align: center;
+  font-size: 16px;
+  text-shadow:
+  color: white;
+  text-shadow: 2px 2px 5px Gray;
+  font-family: 'shadows into light', serif;
+  letter-spacing: 2.5px;
+  background: black;
+  opacity: .80;
+  border-radius: 5%;
+  width: 80%;
+  position: relative;
+  left: 43px;
+}
+
+.hr2 {
+  margin: 0;
+  background-color: black;
+  border-color: Black;
+}
+
+.text1 {
+  text-align: center;
+  position: relative;
+  text-decoration: underline;
+  font-family: 'Amita', serif;
+  text-shadow: 2px 2px 50px Beige;
+  color: Black;
+  font-size: 25px;
+  top: 40px;
+  margin-bottom: 0px;
+}
+
+.footer {
+  display: unset;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 15px;
+  opacity: .90;
+  top: 70px;
+}
+
+.fb {
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 100px;
+  width: 100px;
+}
+
+.ig {
+  height: 100px;
+  width: 100px;
+}
+
+.twitter {
+  margin-right: 20px;
+  margin-left: 20px;
+  height: 100px;
+  width: 100px;
+}
+
+img {
+  border-radius: 25%;
+  border: 2px solid Black;
+  max-width: 100%;
+}
+
 }
