@@ -1,3 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./images/mtfuji.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 113px;
+  max-width: 100%;
+}
+
 ul {
   list-style-type: none;
   margin: 0px;
@@ -5,14 +18,7 @@ ul {
   overflow: hidden;
   background-color: black;
   color: White
-}
-
-body {
-  margin: 0;
-  overflow-x: hidden;
-  background-image: url(./images/mtfuji.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .asahititle {
@@ -54,34 +60,42 @@ body {
 .listitem a:hover {
   background-color: brown;
 }
+
 .hr1 {
-  width: 100%;
-}
-
-.text1 {
-  text-align: center;
-  text-decoration: underline;
-  font-family: 'Amita', serif;
-  text-shadow: 2px 2px 50px Beige;
-  color: Gray;
-  font-size: 32px;
-}
-
-.footer img {
-  margin-left: 260px;
-  margin-right: 260px;
-  border: 2px solid Black;
-  border-radius:25px;
-  opacity: .60;
-}
-
-.table, td, th{
+  width: 99%;
   border: 1px solid black;
-  border-collapse: collapse;
-  width: 200px;
+  opacity: .80;
 }
 
-table {
-  background-color: DarkGray;
-  opacity: .80;
+.text1-1 {
+  color: Black;
+  text-shadow: 2px 2px 5px Gray;
+  font-size: 36px;
+  text-align: center;
+  position: relative;
+  top: 30px;
+  font-family: none;
+}
+
+p {
+    font-family: 'shadows into light', serif;
+}
+
+.ig {
+  position: relative;
+  top: 30px;
+  margin-left: 300px;
+}
+
+.twitter {
+  position: relative;
+  top: 30px;
+  margin-right: 300px;
+}
+
+.fb {
+  position: relative;
+  top: 30px;
+  margin-right: 400px;
+  margin-left: 400px;
 }
